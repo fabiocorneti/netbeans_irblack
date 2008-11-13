@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
+    <fontcolor bgColor="ffdfdfdf" name="guarded"/>
+    <fontcolor foreColor="white" name="caret-color-insert-mode"/>
+    <fontcolor bgColor="ff1a1a1a" name="highlight-caret-row"/>
+    <fontcolor name="status-bar"/>
+    <fontcolor bgColor="ffdedede" foreColor="darkGray" name="line-number"/>
+    <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
+    <fontcolor bgColor="ff3d3d3d" name="selection"/>
+    <fontcolor bgColor="ffdedede" foreColor="darkGray" name="code-folding-bar"/>
+    <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
+    <fontcolor foreColor="darkGray" name="text-limit-line-color"/>
+    <fontcolor bgColor="ff3d3d3d" name="highlight-search"/>
+    <fontcolor bgColor="ff242424" name="nbeditor-bracesMatching-match"/>
+    <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
+    <fontcolor foreColor="red" name="status-bar-bold"/>
+    <fontcolor bgColor="ff3d3d3d" foreColor="black" name="inc-search"/>
+    <fontcolor bgColor="red" name="nbeditor-bracesMatching-mismatch"/>
+    <fontcolor foreColor="magenta" name="code-folding"/>
+</fontscolors>

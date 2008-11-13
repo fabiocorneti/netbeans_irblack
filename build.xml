@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See harness/README in the NetBeans platform -->
+<!-- for some information on what you could do (e.g. targets to override). -->
+<!-- If you delete this file and reopen the project it will be recreated. -->
+<project name="com.corneti.irblack" default="if" basedir=".">
+    <description>Builds, tests, and runs the project com.corneti.irblack.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <property file="build.properties"/>
+
+    <target name="if">
+        <condition property="condition">
+            <equals arg1="${copyUserSettings}" arg2="1"/>
+        </condition>
+        <antcall target="copy.settings" />
+        <antcall target="netbeans" />
+    </target>
+
+    <target name="copy.settings" if="condition">        
+        <property name="nbversion" value="6.5"/>
+        <property name="settingsdir" value="${user.home}/.netbeans/${nbversion}/config"/>
+        <copy todir="src/com/corneti/netbeans/theme/irblack/Editors/FontsColors/IR_Black">
+            <fileset dir="${settingsdir}/Editors/FontsColors/IR_Black/">
+                <include name="*.xml"/>
+            </fileset>
+        </copy>
+        <antcall target="netbeans" />
+    </target>
+</project>
