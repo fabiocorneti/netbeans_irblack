@@ -18,9 +18,9 @@
     <target name="copy.settings" if="condition">        
         <property name="nbversion" value="6.5"/>
         <property name="settingsdir" value="${user.home}/.netbeans/${nbversion}/config"/>
-        <copy todir="src/com/corneti/netbeans/theme/irblack/Editors/FontsColors/IR_Black">
-            <fileset dir="${settingsdir}/Editors/FontsColors/IR_Black/">
-                <include name="*.xml"/>
+        <copy todir="src/com/corneti/netbeans/theme/irblack/Editors/">
+            <fileset dir="${settingsdir}/Editors">
+                <include name="**/FontsColors/IR_Black/*.xml"/>
             </fileset>
         </copy>
         <antcall target="netbeans" />
