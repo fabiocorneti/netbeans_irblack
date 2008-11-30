@@ -4,8 +4,8 @@
 <!-- If you delete this file and reopen the project it will be recreated. -->
 <project name="com.corneti.irblack" default="if" basedir=".">
     <description>Builds, tests, and runs the project com.corneti.irblack.</description>
-    <import file="nbproject/build-impl.xml"/>
     <property file="build.properties"/>
+    <import file="nbproject/build-impl.xml"/>
 
     <target name="if">
         <condition property="condition">
