@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-OpenIDE-Module: com.corneti.irblack/0
+OpenIDE-Module: com.corneti.netbeans.theme.irblack/0
 OpenIDE-Module-Implementation-Version: 1
-OpenIDE-Module-Localizing-Bundle: com/corneti/irblack/Bundle.properties
-
+OpenIDE-Module-Layer: com/corneti/netbeans/theme/irblack/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/corneti/netbeans/theme/irblack/Bundle.properties
